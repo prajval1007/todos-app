@@ -5,7 +5,6 @@ pipeline {
         nodejs "nodejs"
     }
 
-
     stages {
         stage('Install Packages') {
             steps {
@@ -31,3 +30,5 @@ pipeline {
                 }
             }
         }
+    }
+}
